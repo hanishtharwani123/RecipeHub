@@ -1,0 +1,135 @@
+.navbar_1 {
+    width: 100%;
+    height: 75px;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #230094;
+    position: fixed;
+    top: 0;
+}
+
+.logos {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.log_navLink {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 17px;
+}
+
+Link {
+    text-decoration: none;
+}
+
+ul li {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 50px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.login {
+    padding: 0px 8px;
+    width: 148px;
+    height: 46px;
+    background: #EA01C8;
+    border-radius: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 0;
+}
+
+.links {
+    text-decoration: none;
+}
+
+@media screen and (max-width:947px) {
+    ul {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 759px) {
+    .navbar_1 {
+        width: 100%;
+        height: 70px;
+        padding: 0px 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #230094;
+        position: fixed;
+        top: 0;
+    }
+
+    .logos {
+        font-size: 26px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .login {
+        padding: 0px 8px;
+        width: 110px;
+        height: 37px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .navbar_1 {
+        width: 100%;
+        height: 70px;
+        padding: 0px 14px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #230094;
+        position: fixed;
+        top: 0;
+    }
+
+    .logos {
+        font-size: 20px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .login {
+        padding: 0px 8px;
+        width: 84px;
+        height: 33px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+}

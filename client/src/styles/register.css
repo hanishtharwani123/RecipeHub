@@ -1,0 +1,215 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+}
+
+.register_box {
+    width: 370px;
+    height: 470px;
+    border: 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #bebebe;
+    margin-top: 177px;
+    padding: 14px 0px;
+    margin-bottom: 120px;
+}
+
+.enter {
+    display: grid;
+    grid-gap: 16px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.register_names {
+    font-size: 25px;
+    color: #000;
+    font-weight: 600;
+    text-align: center;
+}
+
+label {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+}
+
+.register_input {
+    width: 300px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bebebe;
+    padding-left: 10px;
+    outline: none;
+}
+
+.btn_submit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.submiting {
+    width: 300px;
+    height: 44px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bebebe;
+    padding-left: 10px;
+    background: #EA01C8;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.have {
+    font-size: 16px;
+    color: #000;
+}
+
+
+.log {
+    width: 300px;
+    height: 44px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #bebebe;
+    padding-left: 10px;
+    background: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.account {
+    width: 100%;
+    display: grid;
+    grid-gap: 13px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 476px) {
+    .register_box {
+        width: 290px;
+        height: 470px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #bebebe;
+        margin-top: 177px;
+        padding: 14px 0px;
+        margin-bottom: 120px;
+    }
+
+    .register_input {
+        width: 235px;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        outline: none;
+    }
+
+    .submiting {
+        width: 235px;
+        height: 44px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        background: #EA01C8;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .log {
+        width: 235px;
+        height: 44px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        background: #fff;
+        color: #000;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .register_box {
+        width: 242px;
+        height: 470px;
+        border: 0;
+        border-radius: 8px;
+        box-shadow: 0 0 10px #bebebe;
+        margin-top: 160px;
+        padding: 14px 0px;
+        margin-bottom: 103px;
+    }
+
+    .register_input {
+        width: 205px;
+        height: 40px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        outline: none;
+    }
+
+    .submiting {
+        width: 205px;
+        height: 44px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        background: #EA01C8;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .log {
+        width: 205px;
+        height: 44px;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 0 10px #bebebe;
+        padding-left: 10px;
+        background: #fff;
+        color: #000;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .have {
+        font-size: 13px;
+        color: #000;
+    }
+
+    label {
+        font-size: 14px;
+        color: #000;
+        font-weight: 500;
+    }
+}

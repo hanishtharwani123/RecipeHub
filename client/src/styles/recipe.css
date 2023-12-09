@@ -1,0 +1,242 @@
+.card {
+    width: 100%;
+    display: grid;
+    grid-gap: 25px;
+    justify-content: center;
+    padding: 178px 0px;
+}
+
+.tagline_welcome {
+    font-size: 58px;
+    font-weight: 600;
+    color: #000;
+    text-align: center;
+    text-align: center;
+}
+
+.tagline_reciep {
+    font-size: 42.5px;
+    font-weight: 600;
+    color: #230094;
+    text-align: center;
+    width: 1256px;
+}
+
+.btn_recipe {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.create_recipe {
+    padding: 0 18px;
+    width: 350px;
+    height: 75px;
+    background: #EA01C8;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 0;
+}
+
+.img_reciep {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.burger {
+    width: 950px;
+}
+
+@media screen and (max-width:1260px) {
+    .tagline_welcome {
+        font-size: 46px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+
+    .tagline_reciep {
+        font-size: 34.5px;
+        font-weight: 600;
+        color: #230094;
+        text-align: center;
+        width: 951px;
+    }
+
+    .burger {
+        width: 859px;
+    }
+}
+
+@media screen and (max-width:990px) {
+    .tagline_welcome {
+        font-size: 40px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+
+    .tagline_reciep {
+        font-size: 29.5px;
+        font-weight: 600;
+        color: #230094;
+        text-align: center;
+        width: 670px;
+    }
+
+    .create_recipe {
+        padding: 0 18px;
+        width: 288px;
+        height: 69px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .burger {
+        width: 632px;
+    }
+}
+
+
+@media screen and (max-width:712px) {
+    .tagline_welcome {
+        font-size: 28px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+
+    .tagline_reciep {
+        font-size: 21.5px;
+        font-weight: 600;
+        color: #230094;
+        text-align: center;
+        width: 479px;
+    }
+
+    .create_recipe {
+        padding: 0 18px;
+        width: 288px;
+        height: 69px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .burger {
+        width: 418px;
+    }
+
+    .card {
+        width: 100%;
+        display: grid;
+        grid-gap: 25px;
+        justify-content: center;
+        padding: 154px 0px;
+    }
+}
+
+
+@media screen and (max-width:509px) {
+    .tagline_welcome {
+        font-size: 26px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+
+    .tagline_reciep {
+        font-size: 16.5px;
+        font-weight: 600;
+        color: #230094;
+        text-align: center;
+        width: 331px;
+    }
+
+    .create_recipe {
+        padding: 0 18px;
+        width: 235px;
+        height: 57px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .burger {
+        width: 306px;
+    }
+
+    .card {
+        width: 100%;
+        display: grid;
+        grid-gap: 25px;
+        justify-content: center;
+        padding: 154px 0px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .tagline_welcome {
+        font-size: 17px;
+        font-weight: 600;
+        color: #000;
+        text-align: center;
+    }
+
+    .tagline_reciep {
+        font-size: 13.5px;
+        font-weight: 600;
+        color: #230094;
+        text-align: center;
+        width: 256px;
+    }
+
+    .create_recipe {
+        padding: 0 18px;
+        width: 206px;
+        height: 50px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .burger {
+        width: 245px;
+    }
+
+    .card {
+        width: 100%;
+        display: grid;
+        grid-gap: 25px;
+        justify-content: center;
+        padding: 154px 0px;
+    }
+}

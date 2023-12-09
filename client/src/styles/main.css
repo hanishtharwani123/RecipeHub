@@ -1,0 +1,432 @@
+.page {
+    width: 100%;
+    background: #230094;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 40px;
+}
+
+.logo_main {
+    font-size: 35px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.login_register {
+    padding: 0px 8px;
+    width: 148px;
+    height: 46px;
+    background: #EA01C8;
+    border-radius: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 19.5px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 129px;
+    padding: 0px 40px;
+}
+
+
+.tagline {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    width: 710px;
+}
+
+.below_tagline {
+    font-size: 19px;
+    color: #dbdbdb;
+    font-weight: 500;
+    width: 644px;
+    margin-top: 28px;
+}
+
+.register_btn {
+    margin-top: 30px;
+}
+
+.register {
+    padding: 0 18px;
+    width: 265px;
+    height: 65px;
+    background: #EA01C8;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 0;
+}
+
+.image_home {
+    margin-top: -62px;
+}
+
+.Food_img {
+    width: 526px;
+}
+
+.me {
+    width: 100%;
+    padding-right: 40px;
+    padding-bottom: 18px;
+    display: flex;
+    justify-content: right;
+    margin-top: 28px;
+}
+
+.hanish {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width:1282px) {
+    .Food_img {
+        width: 427px;
+    }
+
+    .tagline {
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+        width: 467px;
+    }
+
+    .below_tagline {
+        font-size: 16px;
+        color: #dbdbdb;
+        font-weight: 500;
+        width: 424px;
+        margin-top: 28px;
+    }
+
+    .main {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 120px;
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width:936px) {
+    .Food_img {
+        width: 460px;
+    }
+
+    .tagline {
+        font-size: 40px;
+        color: #fff;
+        font-weight: 600;
+        width: 587px;
+        text-align: center;
+    }
+
+    .below_tagline {
+        font-size: 15px;
+        color: #DBDBDA;
+        font-weight: 500;
+        width: 587px;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        margin-top: 120px;
+        grid-gap: 18px;
+    }
+
+    .register_btn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_home {
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+}
+
+
+@media screen and (max-width:647px) {
+    .Food_img {
+        width: 365px;
+    }
+
+    .tagline {
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        width: 437px;
+        text-align: center;
+    }
+
+    .below_tagline {
+        font-size: 14px;
+        color: #DBDBDA;
+        font-weight: 500;
+        width: 437px;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        margin-top: 120px;
+        grid-gap: 18px;
+    }
+
+    .register_btn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_home {
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .register {
+        padding: 0 12px;
+        width: 236px;
+        height: 56px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 19px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 14px;
+    }
+
+    .logo_main {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .login_register {
+        padding: 0px 8px;
+        width: 135px;
+        height: 41px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18.5px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:469px) {
+    .Food_img {
+        width: 300px;
+    }
+
+    .tagline {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 600;
+        width: 321px;
+        text-align: center;
+    }
+
+    .below_tagline {
+        font-size: 12px;
+        color: #DBDBDA;
+        font-weight: 500;
+        width: 321px;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        margin-top: 120px;
+        grid-gap: 18px;
+    }
+
+    .register_btn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_home {
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .register {
+        padding: 0 12px;
+        width: 185px;
+        height: 52px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 14px;
+    }
+
+    .logo_main {
+        font-size: 30px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .login_register {
+        padding: 0px 8px;
+        width: 135px;
+        height: 41px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 18.5px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .Food_img {
+        width: 266px;
+    }
+
+    .tagline {
+        font-size: 17px;
+        color: #fff;
+        font-weight: 600;
+        width: 266px;
+        text-align: center;
+    }
+
+    .below_tagline {
+        font-size: 10px;
+        color: #DBDBDA;
+        font-weight: 500;
+        width: 266px;
+        margin-top: 28px;
+        text-align: center;
+    }
+
+    .main {
+        display: grid;
+        justify-content: center;
+        margin-top: 99px;
+        grid-gap: 18px;
+    }
+
+    .register_btn {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .image_home {
+        margin-top: 38px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .register {
+        padding: 0 12px;
+        width: 185px;
+        height: 52px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-size: 15px;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 14px;
+    }
+
+    .logo_main {
+        font-size: 22px;
+        color: #fff;
+        font-weight: 600;
+    }
+
+    .login_register {
+        padding: 0px 8px;
+        width: 94px;
+        height: 35px;
+        background: #EA01C8;
+        border-radius: 40px;
+        color: #ffffff;
+        font-weight: 500;
+        font-size: 14.5px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        border: 0;
+    }
+
+    .hanish {
+        font-size: 13px;
+        color: #fff;
+        font-weight: 600;
+    }
+}
