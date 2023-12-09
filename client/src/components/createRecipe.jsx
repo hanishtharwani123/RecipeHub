@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/createRecipe.css";
 import Header from "./header";
 import Footer from "./footer";
+import baseUrl from "../baseUrl";
 import recipe from "../assets/recipe.jpg";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
@@ -16,7 +17,7 @@ const createRecipe = () => {
   const recipeSubmit = async (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/createRecipe", {
+      .post(`${baseUrl}/createRecipe`, {
         name,
         description,
         ingredients,

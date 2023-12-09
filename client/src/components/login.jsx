@@ -4,6 +4,7 @@ import Footer from "./footer";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import baseUrl from "../baseUrl";
 
 const login = () => {
   const [username, setUsername] = useState("");
@@ -12,7 +13,7 @@ const login = () => {
   const handle = (e) => {
     e.preventDefault();
     axios
-      .post("http://localhost:5000/login", { username, password })
+      .post(`${baseUrl}/login`, { username, password })
       .then((res) => {
         console.log(res);
         if (res.data == "login successfully") {

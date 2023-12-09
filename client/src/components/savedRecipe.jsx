@@ -3,13 +3,14 @@ import "../styles/savedRecipe.css";
 import Header from "./header";
 import Footer from "./footer";
 import axios from "axios";
+import baseUrl from "../baseUrl";
 import burger from "../assets/burger.png";
 import { Link } from "react-router-dom";
 
 const savedRecipe = () => {
   const [recipe, setRecipe] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:5000/savedRecipe").then((res) => {
+    axios.get(`${baseUrl}/savedRecipe`).then((res) => {
       console.log(res.data);
       setRecipe(res.data);
     });

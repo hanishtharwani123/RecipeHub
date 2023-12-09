@@ -3,6 +3,7 @@ import "../styles/register.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
 import { Link } from "react-router-dom";
+import baseUrl from "../baseUrl";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 
@@ -15,7 +16,7 @@ const register = () => {
     e.preventDefault();
 
     axios
-      .post("http://localhost:5000/register", { username, password })
+      .post(`${baseUrl}/register`, { username, password })
       .then((res) => {
         console.log(res);
         if (res.data == "user existed") {

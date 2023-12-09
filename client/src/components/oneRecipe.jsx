@@ -5,6 +5,7 @@ import Footer from "./footer";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 import burger from "../assets/burger.png";
+import baseUrl from "../baseUrl";
 
 const oneRecipe = () => {
   const { id } = useParams();
@@ -14,7 +15,7 @@ const oneRecipe = () => {
   const [url, setUrl] = useState("");
 
   useEffect(() => {
-    axios.get("http://localhost:5000/oneRecipe/" + id).then((res) => {
+    axios.get(`${baseUrl}/oneRecipe/` + id).then((res) => {
       console.log(res.data);
       setName(res.data.name);
       setDescription(res.data.description);
