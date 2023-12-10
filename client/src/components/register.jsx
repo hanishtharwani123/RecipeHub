@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "../styles/register.css";
 import Header from "../components/header";
 import Footer from "../components/footer";
@@ -6,11 +6,19 @@ import { Link } from "react-router-dom";
 import baseUrl from "../baseUrl";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
+import AOS from "aos/dist/aos";
+import "aos/dist/aos.css";
 
-const register = () => {
+const Register = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // You can change the duration as per your requirement
+    });
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -19,7 +27,7 @@ const register = () => {
       .post(`${baseUrl}/register`, { username, password })
       .then((res) => {
         console.log(res);
-        if (res.data == "user existed") {
+        if (res.data === "user existed") {
           alert("User already existed, Please Login");
           navigate("/login");
         } else {
@@ -35,11 +43,15 @@ const register = () => {
   return (
     <>
       <Header buttonName="Login" buttonLink="/login" />
-      <div className="container">
-        <div className="register_box">
-          <h1 className="register_names">Register</h1>
-          <form onSubmit={handleSubmit} className="enter">
-            <label htmlFor="">Username</label>
+      <div className="container" data-aos="fade-up">
+        <div className="register_box" data-aos="fade-up">
+          <h1 className="register_names" data-aos="fade-up">
+            Register
+          </h1>
+          <form onSubmit={handleSubmit} className="enter" data-aos="fade-up">
+            <label htmlFor="" data-aos="fade-up">
+              Username
+            </label>
             <input
               type="text"
               name="username"
@@ -47,8 +59,11 @@ const register = () => {
               onChange={(e) => setUsername(e.target.value)}
               value={username}
               className="register_input"
+              data-aos="fade-up"
             />
-            <label htmlFor="">Password</label>
+            <label htmlFor="" data-aos="fade-up">
+              Password
+            </label>
             <input
               type="password"
               name="password"
@@ -56,14 +71,17 @@ const register = () => {
               onChange={(e) => setPassword(e.target.value)}
               value={password}
               className="register_input"
+              data-aos="fade-up"
             />
-            <div className="btn_submit">
+            <div className="btn_submit" data-aos="fade-up">
               <button className="submiting">Submit</button>
             </div>
           </form>
-          <div className="account">
-            <p className="have">Have an Account ?</p>
-            <Link to="/login">
+          <div className="account" data-aos="fade-up">
+            <p className="have" data-aos="fade-up">
+              Have an Account ?
+            </p>
+            <Link to="/login" data-aos="fade-up">
               <button className="log">Login</button>
             </Link>
           </div>
@@ -74,4 +92,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;

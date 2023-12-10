@@ -30,7 +30,12 @@ const main = () => {
             </div>
           </div>
           <div className="image_home">
-            <img src={web} alt="food_Recipe" className="Food_img" />
+            <img
+              src={web}
+              alt="food_Recipe"
+              className="Food_img"
+              loading="lazy"
+            />
           </div>
         </div>
         <div className="me">
