@@ -1,4 +1,4 @@
-# RecipeHu
+# RecipeHub
 
 RecipeHub is a web application that empowers users to explore, create, and save recipes. The project integrates user authentication, allowing users to register, log in, and personalize their RecipeHub experience. The frontend is built with React and Vite, while the backend utilizes Node.js, Express, and MongoDB.
 
