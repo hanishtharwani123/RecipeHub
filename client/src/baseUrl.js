@@ -1,4 +1,4 @@
 // const baseUrl = "http://localhost:5000";
-const baseUrl = "https://recipe-hub-kappa.vercel.app/";
+const baseUrl = "https://recipehub-mern.onrender.com";
 
 export default baseUrl;

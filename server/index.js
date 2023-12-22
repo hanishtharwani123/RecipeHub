@@ -1,6 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
+const path = require("path");
 const { urlencoded } = require("body-parser");
 const userModel = require("./models/userSchema");
 const recipeModel = require("./models/recipeSchema");
@@ -89,6 +90,14 @@ app.post("/register", async (req, res) => {
     console.log(err);
   }
 });
+
+if (process.env.NODE_ENV === "production") {
+  app.use(express.static(path.join(__dirname, "..", "client", "build")));
+
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "..", "client", "build", "index.html"));
+  });
+}
 
 app.listen(port, () => {
   console.log(`server is running on ${port}`);
